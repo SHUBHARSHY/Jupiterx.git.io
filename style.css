@@ -1,0 +1,1107 @@
+.nav-wrap{
+    /* border: 1px solid; */
+    height: 93px;
+}
+.logo{
+width: 150px;
+}
+.margin{
+    margin-left: 30px;
+}
+.mr{
+    margin-right: 30px;   
+   }
+.ul-nav{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar-toggler:focus {
+   
+    box-shadow: none !important;
+}
+
+.black{
+    color: #111111 !important;
+}
+.black:hover{
+    padding: 5px 15px;
+    border: 0px solid white;
+    background-color:#D8D8D8;
+    border-radius: 50px;
+}
+
+.nav-btn{
+    padding: 10px 20px;
+    /* border: 1px solid ; */
+    border-radius: 50px;
+    background-color: white;
+}
+.nav-btn:hover{
+    background-color: #D8D8D8;
+}
+.jupiter-btn{
+    padding: 10px 20px;
+    font-weight: 700;
+    color: white;
+    border: 0px solid white;
+    background-color: #EC33C8;
+    background-image: linear-gradient(90deg, #EC33C8 2%, #3319CB 100%);
+    border-radius: 50px; 
+}
+
+
+
+.tagline{
+    width: 100%;
+    font-size: 72px;
+    font-weight: 700;
+    line-height: 1.1em;
+    letter-spacing: 0.7px;
+    font-family: "Poppins", Sans-serif;
+    color: #000000;
+    padding: 0px 64px;
+}
+.seprater{
+    background-color: transparent;
+    background-image: linear-gradient(180deg, #FAF4FF 0%, #FFFFFF 100%);
+    height: 77px;
+    width: 100%;
+}
+
+.kuch{
+    font-weight: 800;
+    font-size: 37px;
+}
+
+.sec1-images{
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.scroll-up{
+    top: 10%;
+}
+.scroll-up-left{
+    width: 25%;
+    margin-left: 23px;
+}
+.scroll-up-right{
+    width: 90%;
+    /* height: 52px; */
+}
+.arrow{
+    width: 4%;
+    position: absolute;
+    right: 45px;
+    top: 31px;
+}
+.scroll-down{
+    bottom: -100px;
+    width: 20%;
+    left: 2%;
+}
+.scroll-below{
+    width: 25%;
+    bottom: -65px;
+    right: 16px;
+    
+}
+.scroll-up-wrap{
+    width: 30%;
+}
+
+
+
+.sec-style{
+    /* margin-top: 7rem; */
+    background-image: url(https://jupiterx.com/wp-content/uploads/2023/04/image-3451.jpg);
+    /* background-image: url('./images/poster1.jpg'); */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 40rem;
+    /* border: 1px solid; */
+
+}
+.sec-style1{
+    /* margin-top: 7rem; */
+    background-image: url(https://jupiterx.com/wp-content/uploads/2023/04/image-3451.jpg);
+    /* background-image: url('./images/poster1.jpg'); */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    /* height: 40rem; */
+    /* border: 1px solid; */
+    flex-flow: column;
+    
+
+}
+
+.card-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+.sec2-card{
+    border-style: solid;
+    border-width: 2px 2px 2px 2px;
+    border-color: #FFFFFF;
+    box-shadow: 0px 18px 46px 0px rgba(0, 0, 0, 0.0784313725490196);
+    border: 3px solid white;
+    width: 20%;
+    background-color: #FFFFFF66;
+    border-radius: 20px;
+    height: 22.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    padding: 40px;
+
+}
+
+.sec2-card:hover{
+    background-color: white;
+}
+.icon1{
+    padding: 13px 17px;
+    background-color: #3613FA;
+    background-image: none;
+    border-radius: 15px 15px 15px 15px;
+    box-shadow: 0px 11px 20px 0px rgba(53.999999999999964, 18.99999999999999, 250, 0.25098039215686274);
+margin-bottom: 45px;
+}
+
+.card-title{
+    font-weight: 800;
+    font-size: 35px;
+}
+.card-para{
+    color: #212529;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.gradient-text {
+    color: #FC4CDA;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    background-image: linear-gradient(270deg, #FC4CDA 0%, #3613FA 100%);
+    font-size: 5rem;
+    text-align: center;
+    height: 14rem;
+}
+.sec3-upr-div{
+    width: 55%;
+}
+.sec3-v1{
+  width: 50%;  
+}
+.sec3-v2{
+width: 50%;
+padding: 50px;
+}
+.sec3-para{
+    font-size: 40px;
+}
+.sec3-v{
+    display: flex;
+    flex-wrap: wrap;
+    /* border: 1px solid; */
+    padding: 60px 40px;
+}
+.sec3-img{
+    width: 90%;
+    margin-left: 85px;
+    margin-top: 79px;
+}
+.sec3-vedio{
+    width: 90%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 12px;  
+}
+.sec4-vedio{
+    width: 90%;
+    border-radius: 12px;  
+}
+.sec3-head{
+    color: #0000004D;
+    font-weight: 900;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.sec4-title{
+    /* color: #FF96AA; */
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    /* background-image: linear-gradient(100deg, #FF96AA 0%, #BE6A7A 100%); */
+    font-size: 30px;
+    font-weight: 800;
+    line-height: 2.16em;
+}
+.sec4-description{
+    font-weight: 800;
+    line-height: 1.25em;
+    font-size: 52px;
+}
+.sec4-para{
+    color: #777777;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1.67em;
+}
+
+.animateHead{
+    color: #FC4CDA;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    background-image: linear-gradient(270deg, #FC4CDA 30%, #3613FA 71%);
+    font-size: 140px;
+    font-weight: 800;
+    line-height: 1em;
+
+}
+.sec5-head{
+    color: #FFFFFF;
+    font-size: 46px;
+    font-weight: 700;
+    width: min-content;
+    margin: 20px 0px;
+}
+.sec5-img{
+    
+    width: 300px;
+    max-width: 100%;
+    transition-duration: 0.5s;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.sec5-v2{
+    width: 100%;   
+    padding: 100px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    height: 100vh;
+    margin-top: 50px;
+    overflow-y: scroll;
+}
+.sec5-v2::-webkit-scrollbar {
+    display: none;
+  }
+.sec5-v2-upr{
+    width: 50%;   
+    /* position: relative; */
+  
+}
+.sec5-v1{
+    
+    width: 50%;
+    flex-flow: column;
+    padding: 100px 75px;
+
+  }
+
+  .sec5-btn{
+    width: 360px;
+    height: 85px;
+    border-color: #FC4CDA80;
+    border-radius: 10px 10px 10px 10px;
+    cursor: pointer;
+    overflow: hidden;
+    background-color: black;
+    color: #FC4CDA;
+    font-size: 25px;
+    font-weight: 800;
+  }
+:hover.sec5-btn{
+    background: linear-gradient(270deg, #FC4CDA 30%, #3613FA 71%);
+    color: white;
+    border-color: transparent;
+    transition: 0.6s;
+}
+
+#sec6-head{
+    text-align: center;
+    font-size: 70px;
+    font-weight: 900;
+    line-height: 1.29em;
+    width: 60%;
+}
+
+.animation{
+    color: #3613FA;
+}
+
+
+.sec6-card{
+    background-color: #000000;
+    background-image: url(https://jupiterx.com/wp-content/uploads/2023/02/landing-section-gradient.png);
+    background-position: top center;
+    background-repeat: no-repeat;
+    gap: 20px;
+    flex-wrap: wrap;
+    width: 90%;
+    border-radius: 20px;
+}
+
+.card-head{
+    font-size: 42px;
+    font-weight: 800;
+    line-height: 1.43em;
+    color:white
+}
+.card-para6{
+    color: #B1B1B1;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.75em;
+}
+.sec6-card-wrap{
+    width: 379px;
+    padding: 64px;
+}
+.sec6-img{
+    width:760px;
+    padding-top: 100px;
+}
+.footer-head{
+    font-weight: 800;
+    margin-bottom: 2rem;
+}
+
+.footer-para{
+    color: #b0b0b0;
+    font-weight: 500;
+}
+.footer-para:hover{
+    color: white;
+}
+.sec-style5{
+}
+.sec7-right{
+    border-radius: 20px;
+    width: 49%;
+    /* height: 800px; */
+}
+
+.inr-sec7{
+    gap: 20px;
+    width: 90%;
+
+}
+.sec7-para{
+    padding: 0px 250px 75px 60px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.75em;
+}
+.sec7-head{
+    padding: 60px 0px 10px 60px;
+    text-align: left;
+    font-size: 42px;
+    font-weight: 800;
+    line-height: 1.43em;
+}
+
+.inr-sec8{
+    background-color: #000000;
+    background-image: url(https://jupiterx.com/wp-content/uploads/2022/11/feature-bg-2.png);
+    background-position: top center;
+    background-repeat: no-repeat;
+    width: 90%;
+    border-radius: 20px;
+    color: white;
+
+}
+
+
+
+
+.logo-show {
+    /* width: auto;
+    padding: 20px 20px;
+    margin-top: 50px; */
+ }
+ 
+ .logo-show .logo-showcase {
+    margin: auto;
+    /* margin-top: 50px; */
+    overflow: hidden;
+    position: relative;
+    width: auto;
+    /* background-color: rgba(132, 165, 174, 0.169); */
+    /* border-radius: 2px; */
+ }
+ .left-shade{
+    background: linear-gradient(to right, #000000 0%, transparent 100%);
+    width: 260px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    height: 100%;
+    z-index: 999;
+    left: 0;
+ }
+
+ .rigth-shade{
+    background: linear-gradient(to left, #000000 0%, transparent 100%);
+    width: 260px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    height: 100%;
+    z-index: 999;
+right: 0;
+ }
+ .logo-show .logo-showcase .logo-box {
+    display: flex;
+    width: calc(250px * 14);
+    animation: scroll 40s linear infinite;
+    /* padding: 40px 0; */
+    height: 464px;
+    gap: 150px;
+ }
+ 
+ 
+
+ .logo-show .logo-showcase .logo {
+    height: 50px;
+    width: 250px;
+    font-size: 35px;
+    margin-top: 20px;
+ }
+ .logo-show .logo-showcase .logo img{
+    width: 350px;
+    height: 420px;
+    margin: 0 20px;
+    border-radius: 10px;
+ }
+ .sec8-card{
+    width: 25%;
+ }
+ .sec8-head{
+    font-size: 42px;
+    font-weight: 800;
+    line-height: 1.19em;
+    color: white;
+    text-align: center;
+    padding-top: 85px;
+    padding-bottom: 20px;
+ }
+.sec8-para{
+    text-align: center;
+    color: #FFFFFFCC;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 1.75em;
+    width: 35%;
+}
+.new{
+    background-color: #7D00C1;
+    background-image: linear-gradient(250deg, #7D00C1 0%, #B939FF 100%);
+    width: 48px;
+    height: 24px;
+    border-radius: 30px;
+    text-decoration: none;
+    cursor: pointer;
+    color: white;
+    margin-bottom: 30px;
+}
+.new-head{
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.5em;
+}
+.new-text{
+    color: #FFFFFF99;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.57em;
+}
+.sec9-head{
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 1.375em;
+    padding: 25px 0px 15px 30px;
+
+}
+.sec9-para{
+    color: #777777;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.75em;
+    /* width: 55%; */
+    padding: 0px 100px 0px 30px;
+}
+.sec9-right{
+    background-color: #F5F5F7;
+    border-radius: 20px;
+    padding: 25px 30px 25px 30px;
+    width: 60%;
+}
+.sec9-right-card{
+    width: 52%;
+}
+.inr-right-img{
+    box-shadow: 0px 5px 8px 0px rgba(0, 0, 0, 0.06);
+    max-width: 100%;
+    width: 288px;
+    border-radius: 10px 10px 10px 10px;
+}
+.sec9-image{
+    width: 38%;
+}
+
+.express-card{
+    background-color: transparent;
+    background-image: linear-gradient(300deg, #762CD4 12%, #B684F4 100%);
+ width: 32%;
+ height: 500px;
+ padding: 50px 40px 40px 40px;
+ border-radius: 20px;
+}
+.exp-img{
+    width: 93%;
+}
+.exp-head{
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 1.375em;
+    color: white;
+    padding: 0px 100px 10px 15px;
+}
+.exp-para{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.75em;
+    color: white;
+}
+.funnel-card{
+    height: 500px;
+    width: 66%;
+    padding: 30px ;
+    border-radius: 20px;
+    background-color: #F5F5F7;
+    justify-content: space-between;
+}
+.funnel-head{
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 1.375em;
+    padding: 15px 0px 15px 30px;
+}
+.funnel-para{
+    padding: 0px 50px 0px 30px;
+    color: #777777;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.75em;
+    width: 58%;
+}
+.funnel-img{
+    width: 100%;
+}
+
+
+.sec9-low-card{
+    width: 90%;
+    gap: 18px
+}
+
+.sec10-bord{
+    background-image: url("./images/background.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 800px;
+    
+}
+.bord-head{
+    font-size: 52px;
+    font-weight: 800;
+    line-height: 1.25em;
+}
+.bord-big{
+    color: #FC4CDA;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    background-image: linear-gradient(270deg, #FC4CDA 0%, #3613FA 100%);
+    padding-top: 10px;
+    padding-bottom: 20px;
+    font-size: 100px;
+    font-weight: 800;
+    line-height: 0.9em;
+}
+.sec10-table{
+    gap: 50px;
+}
+.table-title{
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.5em;
+}
+.table-card{
+    width: 320px;
+}
+.table-para{
+    color: #444444;
+    font-family: "Poppins", Sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.87em;
+}
+
+.sec-style9{
+    background-color: #F5F5F7;
+    background-image: url(https://jupiterx.com/wp-content/uploads/2023/04/image817381.jpg);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.sec11-head{
+    font-size: 100px;
+    font-weight: 800;
+    line-height: 1.3em;
+    letter-spacing: -0.02em;
+    color: #2CE5E5;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    background-image: linear-gradient(270deg, #2CE5E5 0%, #3613FA 100%);
+padding-top: 100px;
+}
+.sec-style10{
+    background-image: url(https://jupiterx.com/wp-content/uploads/2023/04/Rectangle-34346.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.sec12-head{
+    transition: transform 0.5s;
+    font-size: 80px;
+    font-weight: 800;
+    line-height: 1.375em;
+    color: white;
+    padding: 0px 0px 70px 0px;
+    
+}
+.sec12-head:hover{
+    transition: transform 0.5s;
+    --rotateX: 0deg;
+    --rotateY: 0deg;
+    transform: rotateX(var(--rotateX)) rotateY(var(--rotateY));
+}
+.myList{
+    padding: 50px 0px;
+}
+.sec12Top{
+    padding: 100px 0px;
+}
+.sec12-list{
+    justify-content: space-between;
+    gap: 20px;
+}
+.sec12-btn{
+    background-color: #EC33C8;
+    background-image: linear-gradient(275deg, #EC33C8 0%, #3613FA 100%);
+    padding: 25px 60px 25px 60px;
+    border-radius: 60px;
+    cursor: pointer;
+    box-shadow: 0px 3px 9px 0px rgba(0, 0, 0, 0.16);
+    color:white;
+    outline: none;
+    font-size: 25px;
+    font-weight: 800;
+}
+.list-p{
+    color: #FFFFFF;
+    font-family: "Poppins", Sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5em;
+    text-align: center;
+}
+.list-im{
+    width: 40%;
+    padding-bottom: 20px;
+}
+.sec12-car{
+    width: 15%;
+}
+.logo-boc{
+    display: flex;
+    width: calc(250px* 14);
+    animation: scroll 40s linear infinite;
+    padding-bottom: 100px;
+    gap: 110px;
+
+}
+
+.log{
+    background: #ffffff60;
+    width: 151px;
+    border-radius: 27px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 3rem;
+}
+
+.spn{
+    font-size: 14px;
+    font-weight: 400;
+    color: white;
+}
+
+
+
+
+/* slick slider */
+
+.slide-head{
+    padding-bottom: 50px;
+    text-align: center;
+}
+.slider {
+    width: 80%;
+    margin: 100px auto;
+    position: relative; 
+  }
+  .slider img {
+    width: 200px;
+    height: auto;
+    margin: 0 auto;
+  }
+  .slick-prev,
+  .slick-next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    /* background-color: rgba(0, 0, 0, 0.5); */
+    color: #660f0f;
+    border: none;
+    /* padding: 10px; */
+    cursor: pointer;
+    z-index: 1;
+  }
+  .slick-prev:before {
+    color: red;
+  }
+  .slick-next::before {
+    color: red;
+  }
+  .slick-prev {
+    left: -44px;
+  }
+  .slick-next {
+    right: -34px;
+  }
+
+
+
+
+ @keyframes scroll {
+    0% {
+       transform: translateX(0);
+    }
+ 
+    100% {
+       transform: translateX(calc(-250px * 7));
+    }
+ }
+
+
+
+
+
+@media (max-width: 1240px){
+    .sec5-img{
+        width: 200px;
+    }
+    .sec6-card-wrap{
+        width: 100%;
+        padding: 64px; 
+    }
+   
+    .inr-sec7{
+        gap: 10px;
+    }
+    .sec7-para{
+        padding: 0px 92px 75px 60px;
+      
+    }
+    .sec7-head{
+        font-size: 35px;
+    }
+
+}
+
+@media (max-width: 1024px) {
+    .black:hover{
+       
+        background-color:white;
+      
+    }
+    .card-wrapper{
+        margin-top: 120px;
+    }
+    .size {
+       width: 100%;
+       box-shadow: 0px 26px 30px 0px rgba(0, 0, 0, 0.19);
+    }
+    .Margin{
+ margin-left: 30px
+    }
+    .mr{
+     margin-right: 30px;   
+    }
+    .tagline{
+        font-size: 50px;
+    }
+    .sec2-card{
+        width: 30%;
+    }
+    .sec-style{
+        height: max-content;
+        /* border: 1px solid; */
+    
+    }
+    .gradient-text{
+        font-size: 4rem;
+        height: max-content;
+    }
+    .sec3-v1{
+        width: 100%;  
+      }
+      .sec3-v2{
+      width: 100%;
+      padding: 0;
+      padding-top: 50px;
+      }
+      .sec3-head{
+       font-size: 27px;
+    }
+    .sec9-right-card{
+        width: 100%;
+    }
+    .sec9-right {
+        justify-content: center;
+        padding: 0;
+        width: 59%;
+    }
+    .express-card{
+        width: 100%;
+        justify-content: space-evenly;
+    }
+    .funnel-card{
+        width: 100%;
+    }
+    .exp-img{
+        width: 35%;
+    }
+    
+}
+
+@media (max-width: 860px) {
+    .exp-img{
+        width: 50%;
+    }
+}
+
+@media (max-width: 760px) {
+    .tagline{
+        font-size: 29px;
+        padding: 0px 25px;
+    }
+    .sec2-card{
+        width: 80%;
+    }
+    .gradient-text{
+        font-size: 2.5rem;
+        margin: 50px 0px;
+    }
+    .sec3-upr-div{
+        width: 75%;
+    }
+    
+    .sec3-para{
+        font-weight: 700;
+    font-size: 21px;
+    }
+    .sec3-img{
+        margin-left: 50px;
+        margin-top: 40px;
+      
+    }
+    
+    .sec3-v1{
+        width: 100%;  
+      }
+      .sec3-v2{
+      width: 100%;
+      padding: 0;
+      padding-top: 50px;
+      }
+      .sec3-head{
+       font-size: 27px;
+    }
+    .sec4-title{
+      
+        font-size: 22px;
+       
+    }
+    .sec4-description{
+      
+        font-size: 25px;
+    }
+    .sec4-para{
+       
+        font-size: 18px;
+        
+    }
+    .sec5-img{
+        width: 441px;
+    }
+    .sec5-v2{
+        width: 80%;
+    }
+    .sec5-v1{
+        width: 100%;
+    }
+    .sec5-cover{
+        flex-flow: column;
+    }
+    .sec5-v2-upr{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    
+    }
+    .animateHead{
+        font-size: 90px;
+    }
+    .sec5-head{
+        font-size: 25px;
+        width: max-content;
+    }
+    .sec5-v1{
+        padding-top: 100px;
+    }
+    .sec5-btn{
+        font-size: 15px;
+    }
+    .sec6-img{
+        width: 350px;
+        padding: 0;
+
+    }
+    #sec6-head{
+        font-size: 24px;
+    }
+    .sec7-right{
+        width: 90%;
+        /* height: 800px; */
+    }
+    .sec7-head{
+        font-size: 30px;
+        padding: 25px 25px 0px 25px;
+    }
+    .sec7-para{
+        padding: 0px 25px 0px 25px;
+      
+    }
+    .logo-show .logo-showcase .logo img{
+        width: 300px;
+        height: 360px;
+    }
+    .sec8-para{
+        width: 80%;
+    }
+    .sec8-head{
+        font-size: 30px;
+    }
+    .sec8-card{
+        width: 80%;
+     }
+     .rigth-shade{
+        display: none;
+     }
+     .left-shade{
+        display: none;
+     }
+     .sec9-right {
+        margin-top: 30px;
+       padding-bottom: 30px;
+        width: 100%;
+    }
+    .sec9-image{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    
+
+.funnel-para{
+    width: 100%;
+}
+.funnel-card{
+    justify-content: space-around;
+}
+.bord-big{
+    font-size: 55px;
+}
+.bord-head{
+    font-size: 40px;
+}
+.sec10-bord{
+    height: 450px;
+}
+.sec12-head{
+    font-size: 33px;
+}
+.sec12-car{
+    width: 50%;
+}
+.sec12-list{
+    justify-content: center;
+}
+.sec11-head{
+    font-size: 39px;
+}
+}
+
+
+@media (max-width: 640px) {
+    .exp-img{
+        width: 93%;
+    }
+}

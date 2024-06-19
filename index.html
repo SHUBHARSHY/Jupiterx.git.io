@@ -1,0 +1,807 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jupiter</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+
+
+    <link
+    rel="stylesheet"
+    type="text/css"
+    href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"
+  />
+  <link
+    rel="stylesheet"
+    type="text/css"
+    href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"
+  />
+
+  </head>
+  <body>
+    <nav
+      class="navbar navbar-expand-lg nav-wrap z-index-5"
+      
+    >
+      <div class="container-fluid p-0" style="    position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 900000;">
+        <a class="navbar-brand py-4 logo margin" href="#">
+          <img
+            src="https://d1e5yheunyo3q0.cloudfront.net/wp-content/uploads/2022/11/jupiter-x-v4-logo.svg"
+            alt="logo"
+          />
+        </a>
+
+        <button
+          class="navbar-toggler border-0 mr"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse coll-nav justify-content-end position-relative bg-white size"
+          id="navbarSupportedContent"
+        >
+          <ul class="navbar-nav mb-2 mb-lg-0 d-flex ul-nav mr">
+            <li class="nav-item dropdown">
+              <div class="d-flex justify-content-between align-items-center">
+                <a
+                  class="nav-link fw-medium black Margin"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Features
+                </a>
+                <div class="dropdown-toggle"></div>
+              </div>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <div class="d-flex justify-content-between align-items-center">
+                <a
+                  class="Margin nav-link fw-medium black"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Witgets
+                </a>
+                <div class="dropdown-toggle"></div>
+              </div>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <div class="d-flex justify-content-between align-items-center">
+                <a
+                  class="Margin nav-link fw-medium black"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Shop
+                </a>
+                <div class="dropdown-toggle"></div>
+              </div>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <div class="d-flex justify-content-between align-items-center">
+                <a
+                  class="Margin nav-link fw-medium black"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Blog
+                </a>
+                <div class="dropdown-toggle"></div>
+              </div>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <div class="d-flex justify-content-between align-items-center">
+                <a
+                  class="Margin nav-link fw-medium black"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Portfolio
+                </a>
+                <div class="dropdown-toggle"></div>
+              </div>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="Margin nav-link fw-medium black" aria-disabled="true"
+                >Demos</a
+              >
+            </li>
+
+            <li class="d-none d-lg-block">
+              <button class="nav-btn">My Account</button>
+            </li>
+            <li class="d-none d-lg-block">
+              <button class="jupiter-btn">Buy Jupiter X</button>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <section
+      class="d-flex flex-column align-items-center justify-content-center"
+    >
+      <div class="seprater"></div>
+      <div class="w-100">
+        <h1 class="tagline">
+          Create<br />
+          stunning websites<br />
+          without limits
+        </h1>
+      </div>
+      <div class="sec1-images">
+        <img
+          class="scroll-below position-absolute"
+          src="https://d1e5yheunyo3q0.cloudfront.net/wp-content/uploads/2022/11/landing-hero-front.png"
+          alt="image"
+        />
+        <img
+          class="scroll-down position-absolute"
+          src="https://d1e5yheunyo3q0.cloudfront.net/wp-content/uploads/2023/04/image-43.png"
+          alt="image"
+        />
+        <img
+          class=""
+          style="width: 90%"
+          src="./images/poster1.jpg"
+          alt="image"
+        />
+        <div
+          class="position-absolute d-flex justify-content-between scroll-up"
+          style="width: 90%"
+        >
+          <img
+            class="scroll-up-left"
+            src="https://d1e5yheunyo3q0.cloudfront.net/wp-content/uploads/2023/04/image-41-1.png"
+            alt=""
+          />
+          <div class="scroll-up-wrap">
+            <img
+              class="scroll-up-right"
+              src="https://d1e5yheunyo3q0.cloudfront.net/wp-content/uploads/2023/04/image-39-1.png"
+              alt=""
+            />
+            <img
+              class="arrow"
+              src="https://d1e5yheunyo3q0.cloudfront.net/wp-content/uploads/2023/04/Vector-2.png"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+    <section id="sec2" class="sec-style" > 
+      <div class="card-wrapper"></div>
+    </section>
+
+
+    <section id="sec3"  class="sec-style1"  >
+<div class="d-flex justify-content-center align-items-center flex-column sec3-upr-div">
+  <h1 class="fw-bolder gradient-text ">Ultimate <br/> page builder</h1>
+  <h2 class="sec3-para text-center fw-bold">Enjoy a free-form canvas that lets you design your site intuitively, seamlessly and effortlessly.</h2>
+</div>
+
+<div class="sec3-v w-100">
+  <div class="sec3-v1 position-relative">
+    <img class=" sec3-img" src="https://d1e5yheunyo3q0.cloudfront.net/wp-content/uploads/2023/04/landing-page-showcase-background-1536x1027.png" alt="">
+    <video autoplay loop muted class="sec3-vedio" src="https://d1e5yheunyo3q0.cloudfront.net/wp-content/uploads/2022/11/General-main-smaller_1.mp4" >
+  </div>
+  <div class="sec3-v2">
+<div class="d-flex flex-column justify-content-center align-items-start">
+  <h2 class="sec3-head" style="color: black;">Real-time live editing</h2>
+  <p class=" fs-5 " >Unleash your creativity and create a website that captures your vision. Experience the power of real-time live editing.</p>
+</div>
+<div >
+  <h2 class="sec3-head">100+ widgets</h2>
+  <h2 class="sec3-head">Absolute positioning</h2>
+  <h2 class="sec3-head">Block templates</h2>
+  <h2 class="sec3-head">100% Built In-house</h2>
+</div>
+  </div>
+</div>
+    </section>
+
+
+    <section id="sec4" class="sec-style2">
+      <div class="d-flex flex-column justify-content-between align-items-center w-100">
+
+      </div>
+    </section>
+
+    <section id="sec5" class="sec-style3 bg-black">
+      <div class="d-flex flex-wrap justify-content-center align-items-center w-100 sec5-cover">
+        <div class=" d-flex  justify-content-center align-items-start sec5-v1">
+          <h1 class="animateHead">450+</h1>
+          <h2 class="sec5-head">Readymade Websites!</h2>
+          <div class="d-flex flex-column gap-4">
+            <div class="d-flex gap-4 justify-content-start align-items-start">
+              <img src="./images/logostar.jpg" alt="star" style="width: 70px;border-radius: 20px;">
+              <p class="text-center " style="margin-top: revert;color: white;font-size: 17px;font-weight: 500;">One-click Install</p>
+            </div>
+            <div class="d-flex gap-4 justify-content-start align-items-start">
+              <img src="./images/logograph.jpg" alt="star" style="width: 70px; border-radius: 20px;">
+              <p class="text-center " style="margin-top: revert;color: white;font-size: 17px;font-weight: 500;">Designed to
+                convert and sell</p>
+            </div>
+          </div>
+        </div>
+        <div class="sec5-v2-upr">  
+          <div id="imgList" class="sec5-v2">
+
+        </div>
+        </div>
+      </div>
+       <div class="d-flex justify-content-center align-items-center" style="padding: 100px;">
+         <button class="sec5-btn">Browse all demos →</button>
+
+       </div>
+    </section >
+
+    <section id="sec6" class="sec-style4">
+<div class="d-flex justify-content-center align-items-center flex-column" style="padding-bottom: 50px;">
+  <div class="d-flex justify-content-center align-items-center" style="padding:80px 0px;">
+    <h1 id="sec6-head">Top-notch websites for <span class="animation"> </span></h1>
+  </div>
+  <div class="sec6-card d-flex justify-content-between ">
+<div class="sec6-card-wrap">
+  <h1 class="card-head">Blog and Magazine builder</h1>
+  <p class="card-para6">Choose from many layouts and content modules for your online newspaper or magazine</p>
+</div>
+<div class="d-flex justify-content-center align-items-center">
+  <img class="sec6-img" src="https://d1e5yheunyo3q0.cloudfront.net/wp-content/uploads/2023/04/blog-magaziner-builder-img-b72nd-1536x1252.png" alt="" >
+</div>
+
+  </div>
+  
+</div>
+    </section>
+
+<section id="sec7" class="sec-style5 d-flex justify-content-center ">
+  <div class="inr-sec7 d-flex flex-wrap justify-content-evenly align-items-center"></div>
+</section>
+<section id="sec8" class="sec-style6 d-flex justify-content-center mt-4">
+<div class="inr-sec8">
+<div>
+  <h1 class="sec8-head">Design professional<br/> <span style="color:#b939ff ;">WooCommerce</span> websites</h1>
+</div>
+<div class="d-flex justify-content-center align-items-center">
+  <p class="sec8-para">Customize every part of your online store from products lists and singles to cart and checkout</p>
+</div>
+
+<div>
+  <div class="logo-show">
+    <div class="logo-showcase">
+      <div class="left-shade"></div>
+        <div class="logo-box" id="box">
+          
+        </div>
+        <div class="rigth-shade"></div>
+    </div>
+</div>
+</div>
+
+<div class="d-flex flex-wrap justify-content-evenly align-items-center pt-4" style="padding-bottom: 50px;">
+  <div class="sec8-card">
+    <a class="new d-flex justify-content-center align-items-center">new</a>
+    <h4 class="new-head">20+ WooCommerce widgets</h4>
+    <p class="new-text">You have every WooCommerce widget at your disposal to fully customize shop pages from head to toe.</p>
+  </div>
+  <div class="sec8-card">
+    <a class="new d-flex justify-content-center align-items-center">new</a>
+    <h4 class="new-head">20+ WooCommerce widgets</h4>
+    <p class="new-text">You have every WooCommerce widget at your disposal to fully customize shop pages from head to toe.</p>
+  </div>
+  <div class="sec8-card">
+    <a class="new d-flex justify-content-center align-items-center">new</a>
+    <h4 class="new-head">20+ WooCommerce widgets</h4>
+    <p class="new-text">You have every WooCommerce widget at your disposal to fully customize shop pages from head to toe.</p>
+  </div>
+</div>
+</div>
+
+</section>
+<section id="sec9" class="sec-style7 d-flex justify-content-center align-items-center flex-wrap">
+  <div style="width: 90%;gap: 20px" class="d-flex flex-wrap mt-4 mb-4">
+<div class="sec9-right d-flex flex-wrap">
+  <div class="sec9-right-card ">
+    <h1 class="sec9-head">Advanced
+      product filters & variation swatches</h1>
+      <p class="sec9-para">Let them search with the most advanced filters, visual variations and fast response.</p>
+  </div>
+  <div class="" >
+    <img class="inr-right-img" src="https://d1e5yheunyo3q0.cloudfront.net/wp-content/uploads/2022/11/product-filter-img.png" alt="">
+  </div>
+</div>
+<div style="background-color: transparent;background-image: linear-gradient(140deg, #3613FA 12%, #2CE5E5 100%); " class="sec7-right sec9-image d-flex  flex-column ">
+
+  <div class="d-flex flex-column align-items-start">
+    <h1 class="sec7-head " style="color:white">Conditional discounts and coupons</h1>
+  </div>
+  <div style="padding:0px 0px 0px 100px">
+    <img style="width:100%" src="https://d1e5yheunyo3q0.cloudfront.net/wp-content/uploads/2022/11/conditional-img.png" alt="">
+  </div>
+</div>
+</div>
+<div  class=" sec9-low-card d-flex flex-wrap mt-4 mb-4">
+<div class="express-card d-flex flex-column">
+  <div>
+    
+    <h1 class="exp-head">Express checkout</h1>
+    <p class="exp-para mb-4">One-click checkout experience without asking the buyer to enter shipping and billing details</p>
+  </div>
+  <div>
+    <img class="exp-img" src="https://d1e5yheunyo3q0.cloudfront.net/wp-content/uploads/2022/11/checkout-logos.png" alt="">
+  </div>
+</div>
+<div class="funnel-card d-flex flex-column ">
+  <div>
+    <h1 class="funnel-head">Sales funnel builder</h1>
+    <p class="funnel-para">Show tempting upsell and downsell offers and let your customers spend more.</p>
+  </div>
+  <div>
+    <img class="funnel-img" src="https://d1e5yheunyo3q0.cloudfront.net/wp-content/uploads/2022/11/featured-10.png" alt="">
+  </div>
+</div>
+</div >
+<div>
+</div>
+</div>
+</section>
+
+<section id="sec10" class="sec-style8">
+  <div class="sec10-bord d-flex flex-column justify-content-center align-items-center" >
+    <h1 class="bord-head">Freedom to</h1>
+    <h1 class="bord-big">Customize <br/> Everything</h1>
+  </div>
+  <div class="sec10-table d-flex flex-wrap justify-content-evenly align-items-center" id="table">
+   
+  </div>
+</section>
+
+
+<section id="sec11" class="sec-style9">
+  <div>
+    <div>
+      <h1 class="sec11-head text-center">“Just amazing...”</h1>
+    </div>
+
+    <div class="slider">
+      <div>
+        <h3 class="slide-head">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem
+          eveniet, animi libero, nihil magnam facere voluptatum eum veniam ab
+          ducimus
+        </h3>
+        <img
+          src="https://d1e5yheunyo3q0.cloudfront.net/wp-content/uploads/2023/04/hubspot.png"
+          alt="Slide 1"
+        />
+      </div>
+      <div>
+        <h3 class="slide-head">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem
+          eveniet, animi libero, nihil magnam facere voluptatum eum veniam ab
+          ducimus 
+        </h3>
+        <img
+          src="https://d1e5yheunyo3q0.cloudfront.net/wp-content/uploads/2023/04/wprocket.png"
+          alt="Slide 2"
+        />
+      </div>
+      <div>
+        <h3 class="slide-head">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem
+          eveniet, animi libero, nihil magnam facere voluptatum eum veniam ab
+          ducimus
+        </h3>
+        <img
+          src="https://d1e5yheunyo3q0.cloudfront.net/wp-content/uploads/2023/04/wpmarmite-logo.png"
+          alt="Slide 3"
+        />
+      </div>
+      <div>
+        <h3 class="slide-head">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem
+          eveniet, animi libero, nihil magnam facere voluptatum eum veniam ab
+          ducimus 
+        </h3>
+        <img
+          src="https://d1e5yheunyo3q0.cloudfront.net/wp-content/uploads/2023/04/envato-logo.png"
+          alt="Slide 4"
+        />
+      </div>
+      <div>
+        <h3 class="slide-head">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem
+          eveniet, animi libero, nihil magnam facere voluptatum eum veniam ab
+          ducimus
+        </h3>
+        <img
+          src="https://d1e5yheunyo3q0.cloudfront.net/wp-content/uploads/2023/04/elementor-logo.png"
+          alt="Slide 5"
+        />
+      </div>
+      <div>
+        <h3 class="slide-head" >
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem
+          eveniet, animi libero, nihil magnam facere voluptatum eum veniam ab
+          ducimus 
+        </h3>
+        <img
+          src="https://d1e5yheunyo3q0.cloudfront.net/wp-content/uploads/2023/04/wpmayor.png"
+          alt="Slide 6"
+        />
+      </div>
+    </div>
+  </div>
+</section>
+<section id="sec12" class="sec-style10">
+<div class=" sec12Top d-flex flex-column justify-content-center align-items-center">
+  <h1 class="sec12-head text-center">Make a great-looking <br/>website today</h1>
+  <button class="sec12-btn">Buy Jupiter X</button>
+</div>
+<div class=" myList d-flex justify-content-center align-items-center">
+<div class="sec12-list d-flex flex-wrap " >
+<div class="d-flex flex-column justify-content-between align-items-center sec12-car" >
+  <img class="list-im" src="https://d1e5yheunyo3q0.cloudfront.net/wp-content/uploads/2023/04/Frame-158-2.png" alt="">
+  <p class="list-p">One to one customer support</p>
+</div>
+<div class="d-flex flex-column justify-content-between align-items-center sec12-car" >
+  <img class="list-im" src="https://d1e5yheunyo3q0.cloudfront.net/wp-content/uploads/2023/04/Frame-159-2.png" alt="">
+  <p class="list-p">Lifetime free updates</p>
+</div>
+<div class="d-flex flex-column justify-content-between align-items-center sec12-car" >
+  <img class="list-im" src="https://d1e5yheunyo3q0.cloudfront.net/wp-content/uploads/2023/04/Frame-160-3.png" alt="">
+  <p class="list-p">All-time best selling Elementor theme</p>
+</div>
+<div class="d-flex flex-column justify-content-between align-items-center sec12-car" >
+  <img class="list-im" src="https://d1e5yheunyo3q0.cloudfront.net/wp-content/uploads/2023/04/Frame-161-1.png" alt="">
+  <p class="list-p">100% built in-house. No extra plugins.</p>
+</div>
+</div>
+
+</div>
+<div class="logo-show">
+  <div class="logo-showcase">
+      <div class="logo-boc">
+
+          <div class="log">
+            <span class="spn">
+              Motion Effect
+
+            </span>
+          </div>
+
+          <div class="log">
+            <span class="spn">
+              Hide and Shpw Element
+
+            </span>
+          </div>
+
+          <div class="log">
+            <span class="spn">
+              SEO Optimized
+            </span>
+          </div>
+
+          <div class="log">
+            <span class="spn">
+              scroll snap
+            </span>
+          </div>
+
+          <div class="log">
+            <span class="spn">
+              scrolling effect
+            </span>
+          </div>
+
+          <div class="log">
+            <span class="spn">
+              Hover Animation
+            </span>
+          </div>
+
+          <div class="log">
+            <span class="spn">
+              Custom Breakpoint
+            </span>
+          </div>
+
+          <div class="log">
+            <span class="spn">
+              Mouse Effect
+            </span>
+          </div>
+
+          <div class="log">
+            <span class="spn">
+              Scrolling Effect
+            </span>
+          </div>
+
+          <div class="log">
+            <span class="spn">
+              Motion Effect
+            </span>
+          </div>
+
+          <div class="log">
+            <span class="spn">
+              Custom Breakpoint
+            </span>
+          </div>
+
+          <div class="log">
+            <span class="spn">
+              SEO Optimization
+            </span>
+          </div>
+
+          <div class="log">
+            <span class="spn">
+              Scrolling Effect
+            </span>
+          </div>
+
+          <div class="log">
+            <span class="spn">
+              Mouse Effect
+            </span>
+          </div>
+      </div>
+  </div>
+</div>
+</section>
+  <footer class="container-fluid">
+<div class="row  text-sm-start text-md-center px-4" style="background-color: black;color: white; padding-top: 100px;">
+ <div class="col-md-4"> <div class="">
+  <h5 class="footer-head">Top Features</h5>
+<p class="footer-para">
+All Features
+</p>
+<p class="footer-para">
+WooCommerce
+</p>
+<p class="footer-para">
+100+ Elements
+</p>
+<p class="footer-para">
+Layout Builder
+</p>
+
+<p class="footer-para">
+Motion Effects
+</p>
+<p class="footer-para">
+Live Page Editor
+</p>
+<p class="footer-para">
+Popup Builder
+</p>
+<p class="footer-para">
+Form Builder
+</p>
+<p class="footer-para">
+Dynamic Content
+</p>
+<p class="footer-para">
+Header Builder
+</p>
+<p class="footer-para">
+Footer Builder
+</p>
+<p class="footer-para">
+Posts Layouts
+</p>
+</div></div>
+ 
+<div class="col-md-4">
+  <div class="">
+    <h5 class="footer-head">Latest demos</h5>
+    <p class="footer-para">
+      Manicure 2
+    </p>
+    <p class="footer-para">
+      Dance academy
+    </p>
+    <p class="footer-para">
+      Hotel Listing 3
+    </p>
+    <p class="footer-para">
+      Agency 3
+    </p>
+      <p class="footer-para">
+        Video Production
+      </p>
+      <p class="footer-para">
+        Hotel Listing 2
+      </p>
+      <p class="footer-para">
+        Yacht Rental
+      </p>
+      <p class="footer-para">
+        Car Rental
+      </p>
+      <p class="footer-para">
+        Watches Shop
+      </p>
+      <p class="footer-para">
+        Swimwear Shop
+      </p>
+      <p class="footer-para">
+        Accountant
+      </p>
+    <p class="footer-para">
+      Wedding Dresser
+    </p>
+    <p class="footer-para">
+      Law Firm
+    </p>
+    <p class="footer-para">
+      Real Estate
+    </p>
+    <p class="footer-para">
+      Spa 2</p>
+      </div>
+</div>
+ <div class="col-md-4"> <div  class="">
+  <h5 class="footer-head">
+    Resources
+  </h5>
+  <p class="footer-para">
+    Getting started
+  </p>
+  <p class="footer-para">
+    Release notes
+  </p>
+  <p class="footer-para">
+    Blog
+  </p>
+  <p class="footer-para">
+    Terms of Services
+  </p>
+  <p class="footer-para">
+    Privacy Policy
+  </p>
+  <h5 class="footer-head">
+    Support
+  </h5>
+  <p class="footer-para">
+    Help center
+  </p>
+  <p class="footer-para">
+    Facebook group
+  </p>
+  <p class="footer-para">
+    Submit a ticket
+  </p>
+  <p class="footer-para">
+    Hire us!
+  </p>
+  <h5 class="footer-head">
+    Follow
+  </h5>
+  <div>
+    <iconify-icon icon="ri:twitter-fill"  style="color:white; font-size: x-large;padding: 5px;"></iconify-icon>
+    <iconify-icon icon="ic:baseline-facebook"  style="color:white; font-size: x-large;padding: 5px;"></iconify-icon>
+    <iconify-icon icon="mdi:youtube"  style="color:white; font-size: x-large;padding: 5px;"></iconify-icon>
+    <iconify-icon icon="mingcute:dribbble-line"  style="color:white; font-size: x-large;padding: 5px;"></iconify-icon>
+    <iconify-icon icon="ri:linkedin-fill"  style="color:white; font-size: x-large;padding: 5px;"></iconify-icon>
+  </div>
+</div></div>
+ 
+</div>
+  </footer>
+    <script src="/jquery/jquery-3.7.1.min.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://code.iconify.design/iconify-icon/2.0.0/iconify-icon.min.js"></script>
+ 
+ <!-- Slick Slider JavaScript -->
+ <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+ <script
+   type="text/javascript"
+   src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
+ ></script>
+
+ <!-- Initialize the slider -->
+ <script type="text/javascript">
+   $(document).ready(function () {
+     $(".slider").slick({
+       infinite: true,
+       slidesToShow: 1,
+       slidesToScroll: 1,
+       autoplay: true,
+       autoplaySpeed: 3000,
+       prevArrow: '<button type="button" class="slick-prev">Prev</button>',
+       nextArrow: '<button type="button" class="slick-next">Next</button>',
+     });
+   });
+ </script>
+
+
+    <script src="script.js"></script>
+  </body>
+</html>
+
+
+
+
+
+
+
+
